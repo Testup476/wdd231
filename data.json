@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Mountain Tent",
+    "price": 149.99,
+    "description": "A durable and weather-resistant tent for outdoor camping.",
+    "image": "https://images.unsplash.com/photo-1504712598893-24159a89200e?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Classic Backpack",
+    "price": 59.95,
+    "description": "Spacious backpack for hiking and everyday use.",
+    "image": "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Running Shoes",
+    "price": 89.99,
+    "description": "Lightweight and comfortable shoes for runners.",
+    "image": "https://images.unsplash.com/photo-1528701800484-9d50aa5a99f8?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Travel Camera",
+    "price": 299.99,
+    "description": "Capture high-quality memories with this compact travel camera.",
+    "image": "https://images.unsplash.com/photo-1519183071298-a2962be96a3b?auto=format&fit=crop&w=800&q=80"
+  }
+]
