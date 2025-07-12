@@ -1,0 +1,98 @@
+[
+    {
+        "name": "TechNova Solutions",
+        "address": "123 Innovation Drive, San Francisco, CA 94107",
+        "phone": "+1 (415) 555-0198",
+        "website": "https://www.technova.com",
+        "image": "technova.png",
+        "membershipLevel": 3,
+        "industry": "Software Development",
+        "founded": 2012,
+        "employees": 150,
+        "email": "contact@technova.com"
+    },
+    {
+        "name": "GreenFields Organics",
+        "address": "456 Harvest Lane, Eugene, OR 97401",
+        "phone": "+1 (541) 555-0134",
+        "website": "https://www.greenfieldsorganics.com",
+        "image": "greenf.png",
+        "membershipLevel": 2,
+        "industry": "Organic Farming",
+        "founded": 2005,
+        "employees": 45,
+        "email": "info@greenfieldsorganics.com"
+    },
+    {
+        "name": "SkyLine Architecture",
+        "address": "789 Skyline Blvd, Denver, CO 80203",
+        "phone": "+1 (303) 555-0099",
+        "website": "https://www.skylinearch.com",
+        "image": "sky.png",
+        "membershipLevel": 1,
+        "industry": "Architecture & Design",
+        "founded": 1998,
+        "employees": 70,
+        "email": "support@skylinearch.com"
+    },
+    {
+        "name": "AquaPure Filters",
+        "address": "321 Waterway Rd, Tampa, FL 33606",
+        "phone": "+1 (813) 555-0255",
+        "website": "https://www.aquapurefilters.com",
+        "image": "Aqua.png",
+        "membershipLevel": 3,
+        "industry": "Water Treatment",
+        "founded": 2010,
+        "employees": 100,
+        "email": "hello@aquapurefilters.com"
+    },
+    {
+        "name": "ByteCraft Studios",
+        "address": "654 Tech Park, Austin, TX 78701",
+        "phone": "+1 (512) 555-0786",
+        "website": "https://www.bytecraftstudios.com",
+        "image": "bytec.png",
+        "membershipLevel": 2,
+        "industry": "Game Development",
+        "founded": 2017,
+        "employees": 35,
+        "email": "team@bytecraftstudios.com"
+    },
+    {
+        "name": "EcoPack Industries",
+        "address": "987 Recycling Way, Portland, ME 04101",
+        "phone": "+1 (207) 555-0420",
+        "website": "https://www.ecopack.com",
+        "image": "Eco.png",
+        "membershipLevel": 1,
+        "industry": "Eco-friendly Packaging",
+        "founded": 2003,
+        "employees": 85,
+        "email": "contact@ecopack.com"
+    },
+    {
+        "name": "Global Reach Marketing",
+        "address": "1111 Market Street, Chicago, IL 60601",
+        "phone": "+1 (312) 555-0613",
+        "website": "https://www.globalreach.com",
+        "image": "gloalR.png",
+        "membershipLevel": 3,
+        "industry": "Digital Marketing",
+        "founded": 2011,
+        "employees": 120,
+        "email": "inquiries@globalreach.com"
+    },
+    {
+        "name": "Liksa",
+        "address": "rue 2 limete, Kinshasa, Drc 2025",
+        "phone": "+1 (243) 8107122513",
+        "website": "https://www.liksa.com",
+        "image": "Liksa.png",
+        "membershipLevel": 10,
+        "industry": "Software Development",
+        "founded": 2025,
+        "employees": 270,
+        "email": "Liksa25@gmail.com"
+    }
+]

@@ -1,0 +1,43 @@
+/* 🌐 Responsive pour mobiles et tablettes */
+@media (max-width: 800px) {
+    .navbtt {
+        display: block;
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        z-index: 1001;
+    }
+
+    .navigation {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 70%;
+        background-color: var(--background-color);
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 4rem 2rem;
+        z-index: 1000;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .navigation.show {
+        display: flex;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        width: 100%;
+        gap: 2rem;
+    }
+
+    .navigation ul li a {
+        font-size: 1.5rem;
+        padding: 0.5rem 0;
+        display: block;
+        border-bottom: 1px solid #ccc;
+    }
+}
