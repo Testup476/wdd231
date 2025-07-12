@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const Cards = document.getElementById('membersContainer');
 
-    fetch('data/members.json')
+    fetch('../data/members.json')
         .then(async (response) => {
 
             if (!response.ok) {
