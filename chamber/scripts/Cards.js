@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const Cards = document.getElementById('membersContainer');
 
-    fetch('chamber/data/members.json')
+    fetch('https://github.com/Testup476/wdd231/edit/main/chamber/scripts/Cards.js')
         .then(async (response) => {
 
             if (!response.ok) {
