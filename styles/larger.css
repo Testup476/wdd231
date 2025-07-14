@@ -1,51 +1,56 @@
- @media screen and (max-width: 1023px) {
+.navigation {
+    display: flex;
+    margin: 0 auto;
+}
 
-     header {
-         display: flex;
-         flex-wrap: wrap;
-         justify-content: space-between;
-         align-items: center;
-         padding: 10px;
-     }
+@media screen and (max-width: 1023px) {
 
-     .Iconbtt {
-         display: block;
-     }
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
 
-     .navigation {
-         display: none;
-     }
+    .Iconbtt {
+        display: block;
+    }
 
-     /* Cacher la barre de navigation par défaut */
-     .navigation .items {
-         display: block;
-         gap: 1rem;
-     }
+    .navigation {
+        display: none;
+    }
 
-     /* Quand ouverte (via JS) */
-     .navigation .items.active {
-         display: block;
-     }
+    /* Cacher la barre de navigation par défaut */
+    .navigation .items {
+        display: block;
+        gap: 1rem;
+    }
 
-     .navigation .items li {
-         border-bottom: 1px solid #a49999;
-         padding: 1rem;
-         width: 100%;
-         margin-left: -1.5rem;
-     }
+    /* Quand ouverte (via JS) */
+    .navigation .items.active {
+        display: block;
+    }
 
-     .navigation.items li:hover {
-         background-color: rgb(69, 218, 32);
-         margin-left: 10px;
-         transition: all 0.3s ease;
-     }
+    .navigation .items li {
+        border-bottom: 1px solid #a49999;
+        padding: 1rem;
+        width: 100%;
+        margin-left: -1.5rem;
+    }
 
-     .social {
-         grid-template-columns: 1fr;
-         text-align: center;
-     }
+    .navigation.items li:hover {
+        background-color: rgb(69, 218, 32);
+        margin-left: 10px;
+        transition: all 0.3s ease;
+    }
 
-     .social img {
-         margin: 0.5rem auto;
-     }
- }
+    .social {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .social img {
+        margin: 0.5rem auto;
+    }
+}
