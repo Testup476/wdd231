@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 5rem;
+    width: 50rem;
+}
+
+h1 {
+    color: #484848dd;
+    margin-bottom: 1rem;
+}
+
+main {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background: #ddd;
+    width: 50rem;
+    box-shadow: 4px 0 8px;
+}
+
+main p {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #1120bd98
+}
+
+#current-temp {
+    color: black;
+    font-weight: bold;
+}
+
+figcaption {
+    font-size: 1.5rem;
+}
+
+footer {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
