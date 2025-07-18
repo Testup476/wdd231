@@ -1,0 +1,34 @@
+[
+    {
+        "image": "images/T1.png",
+        "company_name": "Desert Tech Solutions",
+        "phone": "+223 1234 5678",
+        "address": "Zone Solaire, Tombouctou, Mali",
+        "website": "https://deserttech.ml",
+        "membership": "gold"
+    },
+    {
+        "image": "images/T2.png",
+        "company_name": "Sahara Agro-Industries",
+        "phone": "+223 8765 4321",
+        "address": "Quartier Agricole, Tombouctou, Mali",
+        "website": "https://saharaagro.ml",
+        "membership": "silver"
+    },
+    {
+        "image": "images/T3.png",
+        "company_name": "Timbuktu Digital Hub",
+        "phone": "+223 1122 3344",
+        "address": "Rue du Savoir, Tombouctou, Mali",
+        "website": "https://timbuktuhub.ml",
+        "membership": "gold"
+    },
+    {
+        "image": "images/T4.png",
+        "company_name": "Mali Green Energy",
+        "phone": "+223 9988 7766",
+        "address": "Av. de l’Énergie, Tombouctou, Mali",
+        "website": "https://maligreen.ml",
+        "membership": "bronze"
+    }
+]

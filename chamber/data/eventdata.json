@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Timbuktu Handicrafts Fair",
+        "date": "2025-08-10",
+        "location": "Place Sankoré, Timbuktu",
+        "description": "A fair showcasing local artisans: jewelry, leather, textiles, and more.",
+        "image": "images/for1.png"
+    },
+    {
+        "title": "Trans-Saharan Trade Conference",
+        "date": "2025-09-03",
+        "location": "Ahmed Baba Cultural Center",
+        "description": "Experts and historians discuss Timbuktu's historic role in trade.",
+        "image": "images/for2.png"
+    },
+    {
+        "title": "Let's Clean Our City",
+        "date": "2025-07-28",
+        "location": "Abaradjou District",
+        "description": "A volunteer day for cleaning public spaces.",
+        "image": "images/for3.png"
+    },
+    {
+        "title": "Tuareg Music Festival",
+        "date": "2025-12-15",
+        "location": "Essakane Dunes",
+        "description": "Concerts of traditional music, dances, and Tuareg poetry.",
+        "image": "images/for4.png"
+    }
+]
