@@ -16,11 +16,12 @@
         width="44" heigh="44" />
     <meta property="og:url" content="https://testup476.github.io/wdd231/" />
     <link rel="icon" href="images/favicon.ico">
-
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/dialog.css">
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/dates.js"></script>
+    <script src="scripts/dates.js" defer></script>
+    <script type="module" src="scripts/modal.js" defer></script>
 
     <title>WDD 231: Web Frontend Development I</title>
 </head>
@@ -31,7 +32,6 @@
         <span>Jean Marc Kanda</span>
         <button id="hamburger" class="Iconbtt"></button>
     </header>
-
     <nav id="navbar" class="navigation">
         <ul id="Listnav" class="items">
             <li class="start"><a href="https://testup476.github.io/wdd231/">Home</a></li>
@@ -61,6 +61,7 @@
         </section>
 
         <section class="Courses-section">
+
             <h2 id="Web">Web Certificate Courses</h2>
 
             <button id="All" class="All">All</button>
@@ -80,7 +81,9 @@
                 <img id="link3" src="./images/browser-chrome.svg" alt="Chrome" />
             </section>
         </div>
-
+        <dialog id="mymodal">
+            <h2></h2>
+        </dialog>
 
     </main>
 

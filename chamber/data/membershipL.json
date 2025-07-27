@@ -1,0 +1,42 @@
+[
+    {
+        "name": "NP Membership",
+        "subject": "Perfect for non-profit organizations.",
+        "description": [
+            "NP Membership Benefits",
+            "Free access for non-profits",
+            "Basic directory listing",
+            "Email updates"
+        ]
+    },
+    {
+        "name": "Bronze Membership",
+        "subject": "Entry-level access to events and resources.",
+        "description": [
+            "Bronze Membership Benefits",
+            "Event participation",
+            "Business directory listing"
+        ]
+    },
+    {
+        "name": "Silver Membership",
+        "subject": "Access to trainings, discounts, and advertising.",
+        "description": [
+            "Includes Bronze benefits",
+            "Event discounts",
+            "Advertising on Chamber pages",
+            "Exclusive workshops"
+        ]
+    },
+    {
+        "name": "Gold Membership",
+        "subject": "All Silver benefits plus homepage spotlight and VIP events.",
+        "description": [
+            "Gold Membership Benefits",
+            "Includes Silver benefits",
+            "Homepage spotlight",
+            "Premium event invites",
+            "Custom promotion campaigns"
+        ]
+    }
+]

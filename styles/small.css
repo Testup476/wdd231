@@ -258,3 +258,34 @@ footer {
 footer p {
     padding: 5px;
 }
+
+dialog {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 3rem #777;
+    width: 50%;
+}
+
+#Closebt {
+    display: block;
+    margin: 20px auto 0 auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #005fcc;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#mymodal {
+    overflow-x: hidden;
+    max-width: 90vw;
+    width: 400px;
+}
