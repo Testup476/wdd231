@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const response = await data.json();
 
-        return await card(response);
+        return card(response);
     }
 
     window.showModal = function (descriptionArray) {
@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function card(data) {
         const card = document.getElementById('cards');
+
         data.forEach(info => {
             const div = document.createElement('div');
             const descriptionParam = JSON.stringify(info.description);
@@ -40,7 +41,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    Fetchdata(link);
+    if (document.getElementById("cards")) {
+        Fetchdata(link);
+    }
 
     // === FORM SUBMISSION LOGIC ===
     const form = document.querySelector('form');
@@ -48,17 +51,17 @@ document.addEventListener('DOMContentLoaded', () => {
         form.addEventListener("submit", function (event) {
             event.preventDefault();
 
-            const fname = document.getElementById('firstname')?.value || "";
-            const lname = document.getElementById('lastname')?.value || "";
-            const orgt = document.getElementById('orgTitle')?.value || "";
-            const email = document.getElementById('email')?.value || "";
-            const phone = document.getElementById('phone')?.value || "";
-            const orgn = document.getElementById('organization')?.value || "";
-            const mbrl = document.getElementById('membership')?.value || "";
-            const bd = document.getElementById('description')?.value || "";
+            const fname = document.getElementById('firstname').value;
+            const lname = document.getElementById('lastname').value;
+            const orgt = document.getElementById('orgTitle').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const orgn = document.getElementById('organization').value;
+            const mbrl = document.getElementById('membership').value;
+            const bd = document.getElementById('description').value;
             const date = new Date().toDateString();
 
-            localStorage.setItem("from", JSON.stringify({
+            localStorage.setItem("form", JSON.stringify({
                 fname, lname, orgt, email, phone, orgn, mbrl, bd, date
             }));
 
