@@ -71,6 +71,11 @@ main,
 footer {
     max-width: 85rem;
     margin: 0 auto;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    transition: box-shadow 0.3s ease;
 }
 
 /*Button*/
@@ -424,5 +429,4 @@ footer .social-media {
     border-bottom: 1px solid var(--secondary-color);
     font-weight: bold;
     color: var(--text-color);
-
 }
