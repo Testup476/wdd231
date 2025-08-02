@@ -139,7 +139,6 @@ footer {
 /*Heros*/
 
 .Heros {
-
     display: flex;
     overflow: hidden;
 }
@@ -429,4 +428,44 @@ footer .social-media {
     border-bottom: 1px solid var(--secondary-color);
     font-weight: bold;
     color: var(--text-color);
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: Arial, sans-serif;
+
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideFade 4s ease-out forwards;
+}
+
+/* Keyframes for smooth slide-up and fade-in-out */
+@keyframes slideFade {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    15% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    85% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
 }
