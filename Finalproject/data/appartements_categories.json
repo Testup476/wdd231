@@ -249,7 +249,7 @@
         ],
         "disponible": true,
         "photos": [
-            "./images/h.png",
+            "./images/h.jpeg",
             "bungalow2.jpg"
         ],
         "categorie": "Bungalow"
@@ -277,7 +277,7 @@
         ],
         "disponible": true,
         "photos": [
-            "./images/i.png",
+            "./images/i.jpeg",
             "condo2.jpg"
         ],
         "categorie": "Condominium"
