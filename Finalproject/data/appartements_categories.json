@@ -1,0 +1,285 @@
+[
+    {
+        "id": 1,
+        "titre": "Modern Studio",
+        "description": "Bright studio, equipped kitchen, ideal for single or student.",
+        "superficie": "35 m²",
+        "etage": 3,
+        "chambres": 0,
+        "salles_de_bain": 1,
+        "meuble": true,
+        "prix_usd": 350,
+        "garantie_mois": 3,
+        "localisation": {
+            "ville": "Kinshasa – Downtown",
+            "quartier": "Gombe",
+            "pays": "DRC"
+        },
+        "amenities": [
+            "Equipped kitchen",
+            "High-speed internet",
+            "Close to shops"
+        ],
+        "disponible": true,
+        "photos": [
+            "./images/a.png",
+            "studio1.jpg"
+        ],
+        "categorie": "Studio"
+    },
+    {
+        "id": 2,
+        "titre": "Apartment",
+        "description": "Comfortable apartment with living room, separate bedroom, balcony, and parking.",
+        "superficie": "60 m²",
+        "etage": 2,
+        "chambres": 1,
+        "salles_de_bain": 1,
+        "meuble": false,
+        "prix_usd": 500,
+        "garantie_mois": 4,
+        "localisation": {
+            "ville": "Kinshasa - Residential",
+            "quartier": "Binza",
+            "pays": "DRC"
+        },
+        "amenities": [
+            "Balcony",
+            "Private parking",
+            "Close to schools"
+        ],
+        "disponible": true,
+        "photos": [
+            "./images/b.png",
+            "appart1b.jpg"
+        ],
+        "categorie": "1 Bedroom Apartment"
+    },
+    {
+        "id": 3,
+        "titre": "2 Bedroom Apartment",
+        "description": "Large living room, two spacious bedrooms, modern kitchen, close to market and transport.",
+        "superficie": "85 m²",
+        "etage": 4,
+        "chambres": 2,
+        "salles_de_bain": 1,
+        "meuble": true,
+        "prix_usd": 750,
+        "garantie_mois": 5,
+        "localisation": {
+            "ville": "Kinshasa – Near shops",
+            "quartier": "Limete",
+            "pays": "DRC"
+        },
+        "amenities": [
+            "Modern kitchen",
+            "Air conditioning",
+            "Close to transport"
+        ],
+        "disponible": true,
+        "photos": [
+            "./images/c.png",
+            "appart2b.jpg"
+        ],
+        "categorie": "2 Bedroom Apartment"
+    },
+    {
+        "id": 4,
+        "titre": "3 Bedroom Apartment",
+        "description": "Bright apartment with 3 bedrooms, 3 bathrooms, and 24/7 security.",
+        "superficie": "120 m²",
+        "etage": 0,
+        "chambres": 3,
+        "salles_de_bain": 3,
+        "meuble": true,
+        "prix_usd": 700,
+        "garantie_mois": 2,
+        "localisation": {
+            "ville": "Kinshasa – High-end",
+            "quartier": "Ngaliema",
+            "pays": "DRC"
+        },
+        "amenities": [
+            "Elevator",
+            "24/7 Security",
+            "Balcony",
+            "Covered parking"
+        ],
+        "disponible": false,
+        "photos": [
+            "./images/3.jpeg",
+            "appart3b.jpg"
+        ],
+        "categorie": "3 Bedroom Apartment"
+    },
+    {
+        "id": 5,
+        "titre": "2 Bedroom Penthouse",
+        "description": "Private terrace, large bay window, high-end equipped kitchen, upscale neighborhood.",
+        "superficie": "150 m²",
+        "etage": 10,
+        "chambres": 2,
+        "salles_de_bain": 2,
+        "meuble": true,
+        "prix_usd": 1800,
+        "garantie_mois": 8,
+        "localisation": {
+            "ville": "Kinshasa",
+            "quartier": "Kinshasa",
+            "pays": "DRC"
+        },
+        "amenities": [
+            "Terrace",
+            "City view",
+            "High-end kitchen",
+            "Enhanced security"
+        ],
+        "disponible": true,
+        "photos": [
+            "./images/d.jpeg",
+            "penthouse2.jpg"
+        ],
+        "categorie": "Penthouse"
+    },
+    {
+        "id": 6,
+        "titre": "Cozy Loft",
+        "description": "Loft with open space layout, modern furnishings, ideal for young professionals.",
+        "superficie": "55 m²",
+        "etage": 5,
+        "chambres": 1,
+        "salles_de_bain": 1,
+        "meuble": true,
+        "prix_usd": 600,
+        "garantie_mois": 3,
+        "localisation": {
+            "ville": "Kinshasa – City Center",
+            "quartier": "Gombe",
+            "pays": "DRC"
+        },
+        "amenities": [
+            "Open space",
+            "Furnished",
+            "Gym access"
+        ],
+        "disponible": true,
+        "photos": [
+            "./images/e.jpeg",
+            "loft2.jpg"
+        ],
+        "categorie": "Loft"
+    },
+    {
+        "id": 7,
+        "titre": "Family House",
+        "description": "Spacious house with garden, 4 bedrooms, ideal for families.",
+        "superficie": "200 m²",
+        "etage": 1,
+        "chambres": 4,
+        "salles_de_bain": 3,
+        "meuble": false,
+        "prix_usd": 550,
+        "garantie_mois": 3,
+        "localisation": {
+            "ville": "Kinshasa – Suburbs",
+            "quartier": "Kintambo",
+            "pays": "DRC"
+        },
+        "amenities": [
+            "Garden",
+            "Garage",
+            "Near schools"
+        ],
+        "disponible": true,
+        "photos": [
+            "./images/01.jpeg",
+            "house2.jpg"
+        ],
+        "categorie": "House"
+    },
+    {
+        "id": 8,
+        "titre": "Luxury Villa",
+        "description": "Exclusive villa with private pool, large terraces, and premium finishes.",
+        "superficie": "350 m²",
+        "etage": 2,
+        "chambres": 5,
+        "salles_de_bain": 4,
+        "meuble": true,
+        "prix_usd": 3500,
+        "garantie_mois": 12,
+        "localisation": {
+            "ville": "Kinshasa – Luxury District",
+            "quartier": "La Gombe",
+            "pays": "DRC"
+        },
+        "amenities": [
+            "Private pool",
+            "Terraces",
+            "Security system",
+            "Garage"
+        ],
+        "disponible": false,
+        "photos": [
+            "./images/f.jpeg",
+            "villa2.jpg"
+        ],
+        "categorie": "Villa"
+    },
+    {
+        "id": 9,
+        "titre": "Charming Bungalow",
+        "description": "Single-story bungalow with cozy interior and beautiful garden.",
+        "superficie": "90 m²",
+        "etage": 1,
+        "chambres": 2,
+        "salles_de_bain": 1,
+        "meuble": false,
+        "prix_usd": 700,
+        "garantie_mois": 4,
+        "localisation": {
+            "ville": "Kinshasa – Quiet Area",
+            "quartier": "Bandalungwa",
+            "pays": "DRC"
+        },
+        "amenities": [
+            "Garden",
+            "Quiet neighborhood",
+            "Parking space"
+        ],
+        "disponible": true,
+        "photos": [
+            "./images/h.png",
+            "bungalow2.jpg"
+        ],
+        "categorie": "Bungalow"
+    },
+    {
+        "id": 10,
+        "titre": "Downtown Condo",
+        "description": "Modern condo in the heart of the city, with gym and rooftop access.",
+        "superficie": "75 m²",
+        "etage": 7,
+        "chambres": 1,
+        "salles_de_bain": 1,
+        "meuble": true,
+        "prix_usd": 900,
+        "garantie_mois": 3,
+        "localisation": {
+            "ville": "Kinshasa – Downtown",
+            "quartier": "Gombe",
+            "pays": "DRC"
+        },
+        "amenities": [
+            "Gym",
+            "Rooftop access",
+            "Security"
+        ],
+        "disponible": true,
+        "photos": [
+            "./images/i.png",
+            "condo2.jpg"
+        ],
+        "categorie": "Condominium"
+    }
+]

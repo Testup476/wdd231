@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.ico" />
+    <meta property="og:title" content="Commissionary House" />
+    <meta property="og:description"
+        content="Commissionary House makes finding your next apartment fast, easy, and secure. Transparent listings, quick payments, and trusted service." />
+    <meta property="og:image" content="https://iccwbo.org/wp-content/uploads/sites/3/2023/01/ICC-office-paris.jpg" />
+    <meta property="og:url" content="https://testup476.github.io/wdd231/Finalproject" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Commissionary House" />
+    <meta name="twitter:description"
+        content="Commissionary House makes finding your next apartment fast, easy, and secure. Transparent listings, quick payments, and trusted service." />
+    <meta name="twitter:image" content="https://iccwbo.org/wp-content/uploads/sites/3/2023/01/ICC-office-paris.jpg" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/design.css" />
+    <link rel="stylesheet" href="styles/reponsive.css" />
+    <script src="scripts/navigation.js" defer></script>
+    <script type="module" src="scripts/main.js" defer></script>
+    <title>PAYMENT</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-house"></i>
+            <h1>Commissionary House</h1>
+        </div>
+
+        <nav id="navbar" class="navigation">
+            <ul id="ulnav" class="ulnavigation">
+                <li><a class="home" href="index.html">Home</a></li>
+                <li><a href="visit.html">Rent</a></li>
+                <li><a href="contact.html">ContactUs</a></li>
+            </ul>
+        </nav>
+        <button id="humburger" class="navbtt"></button>
+    </header>
+
+    <main>
+        <h1>invoice formular</h1>
+        <div class="container-payment">
+            <div class="form-content">
+                <p>categorie: <span id="categorie"></span></p>
+                <p><span id="chambre"></span></p>
+                <p><span id="salle"></span></p>
+                <p><span id="supp"></span></p>
+                <p><span id="location"></span></p>
+                <p><span id="prix"></span></p>
+                <p><span id="warrent"></span></p>
+            </div>
+
+            <form id="data-form" action="#">
+                <div class="input-box">
+                    <label for="firstname" class="details">First Name</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Enter your first name"
+                        title="First Name" required autocomplete="given-name" />
+                </div>
+
+                <div class="input-box">
+                    <label for="lastname" class="details">Last Name</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Enter your last name"
+                        title="Last Name" required autocomplete="family-name" />
+                </div>
+
+                <div class="input-box">
+                    <label for="phone" class="details">Mobile Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your mobile number"
+                        title="Mobile Phone" required autocomplete="tel" />
+                </div>
+
+                <div class="gender-details">
+                    <span class="gender-title">Payment method</span>
+                    <input type="radio" name="gender" id="dot-1" value="Airtel Money" required />
+                    <input type="radio" name="gender" id="dot-2" value="M-PESA" />
+                    <input type="radio" name="gender" id="dot-3" value="BCDC" />
+
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Airtel Money</span>
+                        </label>
+
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">M-PESA</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="gender">BCDC</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Valider le paiement" />
+                </div>
+            </form>
+
+            <dialog id="popup" class="popup center">
+                <div class="icon">
+                    <i class="fa fa-check"></i>
+                </div>
+                <div class="title">Success!!</div>
+                <div class="description">
+                    We will send you a message reception to confirm your transfer.
+                </div>
+                <div class="center">
+                    <button id="ok-popup-btn">Got it</button>
+                </div>
+            </dialog>
+        </div>
+    </main>
+
+    <footer>
+        <address>
+            Commissionary House<br />
+            10 Rue Limete<br />
+            Kinshasa, DRC<br />
+            House@rent.org<br />
+            +243978462190
+        </address>
+        <div class="social-media">
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-square-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="credits">
+            <p>
+                WDD231 Final Project<br />
+                Jean Marc Kanda<br /> <span id="currentyear"></span> Commissionary House<br />
+            </p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+
+</html>

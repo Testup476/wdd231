@@ -1,0 +1,195 @@
+@media (max-width: 768px) {
+
+    .logo h1 {
+        font-size: 15px;
+
+    }
+
+    .Partnersection {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "header header"
+            "part1 part2"
+            "part3 part3";
+    }
+
+    #p1>p,
+    #p2>p {
+        font-size: 20px;
+        margin-top: .5rem;
+        text-align: left;
+        margin-left: 1rem;
+    }
+
+    .popup {
+        width: 80%;
+        height: auto;
+        padding: 20px 15px;
+    }
+
+    .popup .title {
+        font-size: 24px;
+    }
+
+    .popup button {
+        margin-top: 3rem;
+        font-size: 18px;
+        padding: 0.8rem;
+    }
+}
+
+@media(max-width:600px) {
+    .navbtt {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        z-index: 1001;
+    }
+
+    .navigation {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        z-index: 1000;
+        background: #ffffff;
+        position: absolute;
+        top: 90px;
+        right: 0;
+        width: 40%;
+        height: 70vh;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        transition: 1s ease-in-out;
+    }
+
+    .navigation.show {
+        display: flex;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        width: 100%;
+        gap: 2rem;
+    }
+
+    .navigation ul li a {
+        display: block;
+        color: black;
+        margin-left: 1rem;
+        border-bottom: 1px solid var(--text-color);
+    }
+
+    .logo h1 {
+        font-size: 30px;
+    }
+
+    .navbtt {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        background: none;
+        border: none;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .fa-house {
+        display: none;
+    }
+
+    .logo h1 {
+        font-size: 15px;
+    }
+
+    .navbtt {
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .Partnersection {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "part1"
+            "part2"
+            "part3";
+    }
+
+    #p1>p,
+    #p2>p {
+        font-size: 20px;
+        margin-top: .5rem;
+        text-align: left;
+        margin-left: 1rem;
+    }
+}
+
+/*==VISIT PAGE==*/
+@media (max-width: 600px) {
+    .slider-wrapper {
+        width: 100%;
+    }
+
+    .Container {
+        width: fit-content;
+    }
+
+    .filtre-prix {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .filtre-prix input {
+        width: 100%;
+    }
+
+    .category {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .category label {
+        justify-content: flex-start;
+    }
+
+    .gender-details input {
+        align-items: center;
+    }
+
+    .contact-info {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .slider-wrapper {
+        width: 100%;
+    }
+
+    #preview,
+    #nxt {
+        display: none;
+    }
+
+    .Container {
+        justify-items: center;
+        width: fit-content;
+    }
+
+    .popup {
+        width: 90%;
+        padding: 15px 10px;
+    }
+
+    .popup .title {
+        font-size: 20px;
+    }
+
+    .popup button {
+        margin-top: 2rem;
+        font-size: 16px;
+        padding: 0.7rem;
+    }
+}

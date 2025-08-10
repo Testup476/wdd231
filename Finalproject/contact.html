@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Commissionary House" />
+    <meta property="og:description"
+        content="Commissionary House makes finding your next apartment fast, easy, and secure. Transparent listings, quick payments, and trusted service." />
+    <meta property="og:image" content="https://iccwbo.org/wp-content/uploads/sites/3/2023/01/ICC-office-paris.jpg" />
+    <meta property="og:url" content="https://testup476.github.io/wdd231/Finalproject" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Commissionary House">
+    <meta name="twitter:description"
+        content="Commissionary House makes finding your next apartment fast, easy, and secure. Transparent listings, quick payments, and trusted service.">
+    <meta name="twitter:image" content="https://iccwbo.org/wp-content/uploads/sites/3/2023/01/ICC-office-paris.jpg">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/design.css">
+    <link rel="stylesheet" href="styles/reponsive.css">
+    <script src="scripts/navigation.js" defer></script>
+    <title>CONTACT</title>
+
+    <style>
+        .notification {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #4caf50;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 6px;
+            font-size: 14px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .notification.show {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class=" logo">
+            <i class="fa-solid fa-house"></i>
+
+            <h1> Commisionary House</h1>
+        </div>
+
+        <nav id="navbar" class="navigation">
+
+            <ul id="ulnav" class="ulnavigation">
+                <li><a class="home" href="index.html">Home</a></li>
+                <li><a href="visit.html">Rent</a></li>
+                <li><a href="contact.html">ContactUs</a></li>
+            </ul>
+        </nav>
+        <button id="humburger" class="navbtt"></button>
+    </header>
+    <main>
+        <section class="contact-info">
+            <div class="contact-card">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Our Address</h3>
+                <p>10 Rue Limete, Kinshasa, DRC</p>
+            </div>
+
+            <div class="contact-card">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Phone</h3>
+                <p>+243 978 462 190</p>
+            </div>
+
+            <div class="contact-card">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email</h3>
+                <p>house@rent.org</p>
+            </div>
+        </section>
+        <section>
+            <form id="contact-form" action="#">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..."
+                    required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="notif" class="notification">✅ Your message has been sent!</div>
+        </section>
+    </main>
+    <footer>
+        <address>
+            Commisionary House<br>
+            10 Rue Limete<br>
+            kinshasa, DRC<br>
+            House@rent.org<br>
+            +243978462190
+        </address>
+        <div class="social-media">
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-square-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="credits">
+            <p>WDD231 Final Project<br>
+                Jean Marc Kanda<br> <span id="currentyear"></span> Commisiolnary House<br>
+            </p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", function (e) {
+            e.preventDefault(); // Empêche l'envoi pour éviter l'erreur 405
+
+            let notif = document.getElementById("notif");
+            notif.classList.add("show");
+
+            // Cache la notification après 3 secondes
+            setTimeout(() => {
+                notif.classList.remove("show");
+            }, 3000);
+        });
+    </script>
+
+</body>
+
+</html>

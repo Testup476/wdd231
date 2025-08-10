@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Commissionary House" />
+    <meta property="og:description"
+        content="Commissionary House makes finding your next apartment fast, easy, and secure. Transparent listings, quick payments, and trusted service." />
+    <meta property="og:image" content="https://iccwbo.org/wp-content/uploads/sites/3/2023/01/ICC-office-paris.jpg" />
+    <meta property="og:url" content="https://testup476.github.io/wdd231/Finalproject" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Commissionary House">
+    <meta name="twitter:description"
+        content="Commissionary House makes finding your next apartment fast, easy, and secure. Transparent listings, quick payments, and trusted service.">
+    <meta name="twitter:image" content="https://iccwbo.org/wp-content/uploads/sites/3/2023/01/ICC-office-paris.jpg">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/design.css">
+    <link rel="stylesheet" href="styles/reponsive.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script type="module" src="scripts/main.js" defer></script>
+    <title>VISIT</title>
+</head>
+
+<body>
+    <header>
+        <div class=" logo">
+            <i class="fa-solid fa-house"></i>
+
+            <h1> Commisionary House</h1>
+        </div>
+
+        <nav id="navbar" class="navigation">
+
+            <ul id="ulnav" class="ulnavigation">
+                <li><a class="home" href="index.html">Home</a></li>
+                <li><a href="visit.html">Rent</a></li>
+                <li><a href="contact.html">ContactUs</a></li>
+            </ul>
+        </nav>
+        <button id="humburger" class="navbtt"></button>
+    </header>
+    <main>
+        <div class="hero-image">
+            <img src="images/her2.jpg" alt="">
+        </div>
+
+        <div class="filtre-prix">
+            <label for="prix-min">Minimum price :</label>
+            <input type="text" id="prix-min" placeholder="Ex: 500" />
+
+            <label for="warrent">Deposit :</label>
+            <input type="text" id="warrent" placeholder="Max 3 Min 7" />
+        </div>
+
+        <div class="slider-wrapper">
+            <button id="preview" class="prev"><img src="images/left-arrow2.png" alt="Previous"></button>
+
+            <div id="section-product" class="section"></div>
+
+            <button id="nxt" class="next"><img src="images/right-arrow2.png" alt="Next"></button>
+        </div>
+
+        <dialog id="pop" class="Box">
+            <div id="content" class="contenu">
+            </div>
+
+            <button id="close" onclick="document.getElementById('pop').close()">Close</button>
+        </dialog>
+    </main>
+    <footer>
+        <address>
+            Commisionary House<br>
+            10 Rue Limete<br>
+            kinshasa, DRC<br>
+            House@rent.org<br>
+            +243978462190
+        </address>
+        <div class="social-media">
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-square-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="credits">
+            <p>WDD231 Final Project<br>
+                Jean Marc Kanda<br> <span id="currentyear"></span> Commisiolnary House<br>
+            </p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+
+</html>
