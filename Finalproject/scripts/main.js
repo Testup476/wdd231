@@ -8,7 +8,8 @@ import initInvoiceHandler from './invoiceHandler.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
 
-    console.log('payment.js (modular) loaded');
+    console.log('payment.js (modular) loaded');   
+       
     initFormHandler();
     initInvoiceHandler();
 
@@ -36,5 +37,5 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     } catch (error) {
         console.log(error);
-    }
+    } 
 })

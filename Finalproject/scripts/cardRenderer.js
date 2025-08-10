@@ -24,7 +24,6 @@ export default function renderCards(data, container) {
                     <span class="garantie">Security deposit (months): ${element.garantie_mois}</span>
                 </div>
             </div>
-
         `;
         div.querySelector('.read-more').addEventListener('click', () => {
             showDetails(element)
